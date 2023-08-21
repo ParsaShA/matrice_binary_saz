@@ -1,5 +1,5 @@
 def binary_matrix(n,m):
-    matrice = [  [0]*m for _ in range(n)         ]
+    matrice = [  [0]*m for x in range(n)         ]
     for i in range(n):
         for j in range(m):
             if i%2==0:
